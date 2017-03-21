@@ -14,6 +14,8 @@ aminoacidos = [["GAC","GAU"],["GAA", "GAG"], ["CGA", "CGC", "CGG", "CGU", "AGA",
 
 # Ciclo principal de ejecución
 def main():
+    print("NOTA: El menú solamente incluye las funcionalidades básicas. Las herramientas adicionales deben ser accedidas mediante llamadas a las funciones.")
+    
     contArchivos = 0
     while True:
         print("MENÚ")
