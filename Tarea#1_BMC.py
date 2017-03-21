@@ -1,3 +1,4 @@
+####En caso de que no aparezca tkinter poner en consola : sudo apt-get install python3-tk
 import random
 from tkinter import Tk
 import tkinter.filedialog
@@ -47,7 +48,7 @@ def main():
             print("Secuencia guardada en el archivo " + nombreArchivo)
             print("")
             
-        if(opcion == "2"):
+        elif(opcion == "2"):
             print("")
             longitud = int(input("Especifique la longitud de la secuencia: "))
             secuencia = generador(longitud, valoresADN)
@@ -64,7 +65,7 @@ def main():
             print("Secuencia guardada en el archivo " + nombreArchivo)
             print("")
 
-        if(opcion == "3"):
+        elif(opcion == "3"):
             Tk().withdraw()
             archivoLectura = tkinter.filedialog.askopenfilename()
 
@@ -86,7 +87,7 @@ def main():
             print("Secuencia guardada en el archivo " + nombreArchivo)
             print("")
 
-        if(opcion == "4"):
+        elif(opcion == "4"):
             Tk().withdraw()
             archivoLectura = tkinter.filedialog.askopenfilename()
 
@@ -108,7 +109,7 @@ def main():
             print("Secuencia guardada en el archivo " + nombreArchivo)
             print("")
 
-        if(opcion == "5"):
+        elif(opcion == "5"):
             print("")
             print("Formato de nombre de aminoácidos: ")
             print("1 - Nombre completo")
@@ -138,7 +139,7 @@ def main():
             print("Secuencia guardada en el archivo " + nombreArchivo)
             print("")
 
-        if(opcion == "6"):
+        elif(opcion == "6"):
             print("")
             print("Formato de nombre de aminoácidos: ")
             print("1 - Nombre completo")
@@ -171,7 +172,7 @@ def main():
             print("Secuencia guardada en el archivo " + nombreArchivo)
             print("")
 
-        if(opcion == "7"):
+        elif(opcion == "7"):
             break
 
         else:
